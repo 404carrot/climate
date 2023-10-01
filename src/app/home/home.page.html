@@ -1,20 +1,84 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+ <ion-toolbar>
+<ion-title>
+climate app
+</ion-title>
+ </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content [fullscreen]="true">
+ 
+  <div class="main">
+
+<span class="city">Rio de Janeiro</span>
+<span class="date"> Mon, 3:54pm</span>
+
+<div class="icon">
+
+  <img src="../../assets/images.png"  alt="Nuvem">
+</div>
+
+<span class="descricao">Cloudy</span>
+<span class="temperatura">18º</span>
   </div>
+
+<ion-grid>
+
+<ion-row>
+<ion-col class="dia">Seg</ion-col>
+<ion-col class="dia">Ter</ion-col>
+<ion-col class="dia">Qua</ion-col>
+<ion-col class="dia">Qui</ion-col>
+<ion-col class="dia">Sex</ion-col>
+<ion-col class="dia">Sab</ion-col>
+<ion-col class="dia">Dom</ion-col>
+</ion-row>
+<ion-row>
+<ion-col class="precipitacao">60%</ion-col>
+<ion-col class="precipitacao">-</ion-col>
+<ion-col class="precipitacao">20%</ion-col>
+<ion-col class="precipitacao">60%</ion-col>
+<ion-col class="precipitacao">54%</ion-col>
+<ion-col class="precipitacao">-</ion-col>
+<ion-col class="precipitacao">-</ion-col>
+</ion-row>
+<ion-row>
+
+<ion-col class="icon-sm"><img src="../../assets/icon/favicon.png" alt=""></ion-col>
+<ion-col class="icon-sm"><img src="../../assets/icon/favicon.png" alt=""></ion-col>
+<ion-col class="icon-sm"><img src="../../assets/icon/favicon.png" alt=""></ion-col>
+<ion-col class="icon-sm"><img src="../../assets/icon/favicon.png" alt=""></ion-col>
+<ion-col class="icon-sm"><img src="../../assets/icon/favicon.png" alt=""></ion-col>
+<ion-col class="icon-sm"><img src="../../assets/icon/favicon.png" alt=""></ion-col>
+<ion-col class="icon-sm"><img src="../../assets/icon/favicon.png" alt=""></ion-col>
+
+</ion-row>
+
+<ion-row>
+<ion-col class="hi-sm">25ºc</ion-col>
+<ion-col class="hi-sm">25ºc</ion-col>
+<ion-col class="hi-sm">25ºc</ion-col>
+<ion-col class="hi-sm">25ºc</ion-col>
+<ion-col class="hi-sm">25ºc</ion-col>
+<ion-col class="hi-sm">25ºc</ion-col>
+<ion-col class="hi-sm">25ºc</ion-col>
+</ion-row>
+
+<ion-row>
+<ion-col class="lo-sm">15ºc</ion-col>
+<ion-col class="lo-sm">15ºc</ion-col>
+<ion-col class="lo-sm">15ºc</ion-col>
+<ion-col class="lo-sm">15ºc</ion-col>
+<ion-col class="lo-sm">15ºc</ion-col>
+<ion-col class="lo-sm">15ºc</ion-col>
+<ion-col class="lo-sm">15ºc</ion-col>
+</ion-row>
+
+
+
+
+
+</ion-grid>
+
 </ion-content>
